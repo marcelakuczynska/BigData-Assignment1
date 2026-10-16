@@ -42,7 +42,3 @@ python plot_results.py
 The three versions use i-j-k loops and shared input files with values 0-9 and seed `20261016 + n`. The timed section is the multiplication call, including result allocation/initialization. Input loading and output saving are outside the timed section. There are two warm-ups and five measured runs per configuration. Timing is reported with a median and IQR in milliseconds. Memory is the highest externally sampled process RSS in MiB, not the array allocation size; memory sampling covers the full process and can miss brief peaks. The time limit is 90 s and the memory budget is 1024 MiB per process. The C compiler uses `-O0` (no optimization), which is a limitation when interpreting the relative language speeds.
 
 Correctness is checked with small known matrices, identity and zero matrices, and a full output comparison against a separate Python reference. The input and output files are automatically regenerated when running the experiment.
-
-## Disclosure
-
-ChatGPT assisted with planning, code preparation/debugging and report language editing. Measurements are from the student's laptop. The student remains responsible for checking the code and interpreting the results.

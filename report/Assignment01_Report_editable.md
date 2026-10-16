@@ -1,8 +1,8 @@
 # Assignment 1: Basic Matrix Multiplication in Python, Java and C
 
-**Student:** [ADD YOUR FULL NAME]  
+**Student:** Marcela Nieto-Kuczyńska  
 **Course:** Big Data, Universidad de Las Palmas de Gran Canaria (2026/2027)  
-**Repository:** [ADD YOUR GITHUB REPOSITORY LINK]  
+**Repository:** https://github.com/marcelakuczynska/BigData-Assignment1  
 **Date of experiment:** 16 October 2026
 
 ## Abstract
@@ -99,8 +99,6 @@ My experiment shows that larger matrices require much more time with the basic t
 [4] Microsoft, *QueryPerformanceCounter function*, Microsoft Learn. https://learn.microsoft.com/en-us/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter  
 [5] psutil documentation, *Process.memory_info / RSS*. https://psutil.readthedocs.io/en/latest/  
 
-## Reproducibility and AI assistance
+## Reproducibility
 
 The repository contains the Python, Java and C source files, `run_experiments.py`, the plotting script, the raw CSV measurements, the environment details and the README. To reproduce the experiment, run `python -m pip install -r requirements.txt`, followed by `python run_experiments.py`.
-
-**AI assistance:** I used ChatGPT to help plan the experiment, prepare and debug the scripts, and edit the English in this report. The measurements reported here come from runs on my own computer. I am responsible for reviewing the code, checking the results and explaining the project during the oral defence.
