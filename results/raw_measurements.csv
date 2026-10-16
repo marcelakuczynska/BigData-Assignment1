@@ -1,0 +1,91 @@
+language,n,repetition,time_ms,peak_process_rss_mib,rss_sample_count,warmups,seed,value_range,numeric_type,compiler_flags,memory_metric,correctness
+Python,20,1,1.522700000,12.4648,134,2,20261036,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,20,2,1.597800000,12.4648,134,2,20261036,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,20,3,1.569000000,12.4648,134,2,20261036,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,20,4,1.042700000,12.4648,134,2,20261036,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,20,5,1.305100000,12.4648,134,2,20261036,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,20,1,0.191300000,39.0781,122,2,20261036,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,20,2,0.181200000,39.0781,122,2,20261036,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,20,3,0.180000000,39.0781,122,2,20261036,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,20,4,0.178800000,39.0781,122,2,20261036,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,20,5,0.194700000,39.0781,122,2,20261036,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,20,1,0.046900000,3.9492,68,2,20261036,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,20,2,0.038500000,3.9492,68,2,20261036,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,20,3,0.042800000,3.9492,68,2,20261036,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,20,4,0.054700000,3.9492,68,2,20261036,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,20,5,0.055500000,3.9492,68,2,20261036,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,40,1,11.196000000,12.5508,184,2,20261056,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,40,2,9.878500000,12.5508,184,2,20261056,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,40,3,9.823000000,12.5508,184,2,20261056,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,40,4,8.746700000,12.5508,184,2,20261056,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,40,5,8.804500000,12.5508,184,2,20261056,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,40,1,0.310000000,40.2461,151,2,20261056,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,40,2,0.323400000,40.2461,151,2,20261056,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,40,3,0.343800000,40.2461,151,2,20261056,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,40,4,0.357100000,40.2461,151,2,20261056,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,40,5,0.366200000,40.2461,151,2,20261056,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,40,1,0.516600000,4.2188,69,2,20261056,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,40,2,0.388400000,4.2188,69,2,20261056,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,40,3,0.393900000,4.2188,69,2,20261056,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,40,4,0.393800000,4.2188,69,2,20261056,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,40,5,0.398700000,4.2188,69,2,20261056,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,80,1,69.097200000,13.1758,342,2,20261096,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,80,2,65.156600000,13.1758,342,2,20261096,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,80,3,68.567100000,13.1758,342,2,20261096,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,80,4,76.244700000,13.1758,342,2,20261096,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,80,5,79.712800000,13.1758,342,2,20261096,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,80,1,2.422200000,42.6367,144,2,20261096,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,80,2,1.060700000,42.6367,144,2,20261096,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,80,3,1.076800000,42.6367,144,2,20261096,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,80,4,1.080500000,42.6367,144,2,20261096,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,80,5,1.076900000,42.6367,144,2,20261096,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,80,1,2.801200000,4.0156,90,2,20261096,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,80,2,2.500500000,4.0156,90,2,20261096,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,80,3,3.374700000,4.0156,90,2,20261096,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,80,4,3.968500000,4.0156,90,2,20261096,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,80,5,3.216700000,4.0156,90,2,20261096,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,120,1,258.521800000,14.1719,786,2,20261136,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,120,2,230.548600000,14.1719,786,2,20261136,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,120,3,231.812600000,14.1719,786,2,20261136,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,120,4,205.560400000,14.1719,786,2,20261136,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,120,5,198.647900000,14.1719,786,2,20261136,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,120,1,5.961200000,45.3281,159,2,20261136,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,120,2,2.436600000,45.3281,159,2,20261136,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,120,3,1.680000000,45.3281,159,2,20261136,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,120,4,1.587500000,45.3281,159,2,20261136,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,120,5,1.758300000,45.3281,159,2,20261136,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,120,1,7.687800000,4.2344,100,2,20261136,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,120,2,7.698800000,4.2344,100,2,20261136,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,120,3,7.655500000,4.2344,100,2,20261136,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,120,4,7.447800000,4.2344,100,2,20261136,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,120,5,7.484400000,4.2344,100,2,20261136,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,160,1,466.374800000,16.3008,1668,2,20261176,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,160,2,462.345800000,16.3008,1668,2,20261176,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,160,3,461.800200000,16.3008,1668,2,20261176,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,160,4,490.703800000,16.3008,1668,2,20261176,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,160,5,599.062200000,16.3008,1668,2,20261176,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,160,1,3.825400000,47.1367,194,2,20261176,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,160,2,8.351700000,47.1367,194,2,20261176,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,160,3,8.237600000,47.1367,194,2,20261176,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,160,4,8.201000000,47.1367,194,2,20261176,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,160,5,7.590400000,47.1367,194,2,20261176,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,160,1,18.187100000,4.4023,141,2,20261176,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,160,2,18.955100000,4.4023,141,2,20261176,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,160,3,17.468900000,4.4023,141,2,20261176,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,160,4,16.427500000,4.4023,141,2,20261176,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,160,5,17.351600000,4.4023,141,2,20261176,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,200,1,1822.541200000,18.4375,3564,2,20261216,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,200,2,1270.922900000,18.4375,3564,2,20261216,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,200,3,1028.763700000,18.4375,3564,2,20261216,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,200,4,960.692700000,18.4375,3564,2,20261216,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Python,200,5,1133.827800000,18.4375,3564,2,20261216,0..9,integer,CPython interpreter,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,200,1,16.408700000,48.4531,225,2,20261216,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,200,2,19.762600000,48.4531,225,2,20261216,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,200,3,21.586100000,48.4531,225,2,20261216,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,200,4,13.607400000,48.4531,225,2,20261216,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+Java,200,5,12.455500000,48.4531,225,2,20261216,0..9,integer,javac default settings; JVM JIT enabled; 2 warmups by default,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,200,1,98.612000000,4.7617,406,2,20261216,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,200,2,97.883800000,4.7617,406,2,20261216,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,200,3,90.849100000,4.7617,406,2,20261216,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,200,4,95.175600000,4.7617,406,2,20261216,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match
+C,200,5,95.213200000,4.7617,406,2,20261216,0..9,integer,-std=c11 -O0 -Wall -Wextra,"max externally sampled process RSS (whole process), 2 ms polling; MiB",exact_match

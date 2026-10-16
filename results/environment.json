@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-16T20:44:30.675088+00:00",
+  "host_os": "Windows-11-10.0.26200-SP0",
+  "cpu_model": "Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz",
+  "physical_cores": 4,
+  "logical_processors": 8,
+  "ram_total_gib": 7.72,
+  "versions": {
+    "compiler_c": "gcc.exe (Rev5, Built by MSYS2 project) 16.1.0",
+    "compiler_java": "javac 21",
+    "runtime_java": "openjdk version \"21\" 2023-09-19",
+    "flags_c": "-std=c11 -O0 -Wall -Wextra",
+    "flags_java": "javac default settings; JVM JIT enabled; 2 warmups by default",
+    "python_implementation": "CPython",
+    "python_version": "3.12.4",
+    "gcc_path": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+    "javac_path": "<HOME>\\.jdks\\openjdk-21\\bin\\javac.exe"
+  },
+  "psutil_version": "5.9.0",
+  "numeric_type": "signed integer (C/Java int64; Python arbitrary precision)",
+  "input_storage": "n then n*n entries A and n*n entries B, whitespace-separated ASCII integers",
+  "random_generator": "Python random.Random (Mersenne Twister)",
+  "seed_formula": "20261016 + n",
+  "value_range": "integers 0..9 inclusive",
+  "algorithm": "i-j-k triple loop, O(n^3); allocation/zero-init included in kernel time",
+  "matrix_layout": {
+    "Python": "list of lists of references to Python int objects",
+    "Java": "long[][], array of row-array references; long primitive entries",
+    "C": "contiguous, row-major int64_t arrays"
+  },
+  "measurement_boundary_time": "ONLY single multiplication call, including C output allocation/zero-init; input reading/output writing excluded",
+  "measurement_boundary_memory": "max externally sampled process RSS (whole process), 2 ms polling; MiB; sampled over entire process, including input loading, runtime/JVM and output writing",
+  "memory_sampling_interval_ms": 2,
+  "memory_sampling_pause_ms": 150,
+  "python_timer": "time.perf_counter_ns",
+  "java_timer": "System.nanoTime",
+  "c_timer": "QueryPerformanceCounter (Windows) or CLOCK_MONOTONIC (POSIX)",
+  "warmups": 2,
+  "measured_repetitions": 5,
+  "sizes": [
+    20,
+    40,
+    80,
+    120,
+    160,
+    200
+  ],
+  "timeout_per_process_s": 90.0,
+  "memory_limit_mib_per_process": 1024.0,
+  "notes": "Uncontrolled background load, Python object representation and JVM baseline overhead limit interpretation.\nWarmups excluded from samples. RSS samples may miss short-lived peaks and cannot be equated with array bytes."
+}
